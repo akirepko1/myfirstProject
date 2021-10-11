@@ -1,8 +1,8 @@
 import pytest
 import time
-from pages.product_page import ProductPage
-from pages.basket_page import BasketPage
-from pages.login_page import LoginPage
+from .pages.product_page import ProductPage
+from .pages.basket_page import BasketPage
+from .pages.login_page import LoginPage
 
 
 class TestUserAddToBasketFromProductPage():
